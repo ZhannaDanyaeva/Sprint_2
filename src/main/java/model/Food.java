@@ -22,7 +22,7 @@ public abstract class Food implements Discountable {
         return amount;
     }
 
-    public int getDiscount() {
+    public double getDiscount() {
         return Discount.DEFAULT;
     }
 
